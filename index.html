@@ -1,29 +1,116 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Na trilha da música </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
-<nav class="topbar">
-    <div class="logo">
-        <a href="#"><img src="img/logo.png" alt=""></a>
+<nav id="navbar">
+       
+    <div class="brand">
+        <a href="index.html" class="menu-link">Ritmo</a>
     </div>
-    <div>
-        <ul>
-            <li><a href="#">SOBRE</a></li>
-            <li><a href="#">COMO FUNCIONA</a></li>
-            <li><a href="#">APOEI O PROJETO</a></li>
-            <li><a href="#">CONTATO</a></li>
+
+    <button class="btn">
+        <span class="hamburguer"></span>
+        <span class="hamburguer"></span>
+        <span class="hamburguer"></span>
+    </button>
+    <div class="lista">
+        <ul class="lista" id="lista">
+            <li><a href="sobre.html" class="menu-link">Sobre</a></li>
+            <li><a href="consultoriamusical.html" class="menu-link">Consultoria Musical</a></li>
+            <li><a href="engenheiradesom.html" class="menu-link">Portfólio</a></li>
+            <li><a href="mulheresnamusica.html" class="menu-link">Mulheres na Música</a></li>
         </ul>
     </div>
+    <div class="lista2">
+        <ul>
+            <li><a href="sobre.html" class="menu-link">Sobre</a></li>
+            <li><a href="consultoriamusical.html" class="menu-link">Consultoria Musical</a></li>
+            <li><a href="portfolio.html" class="menu-link">Portfólio</a></li>
+            <li><a href="mulheresnamusica.html" class="menu-link">Mulheres na Música</a></li>
+        </ul>
+    </div>
+
 </nav>
+<header> 
+   <h2>Potencialize seu talento</h2>
+</header>
+
 <body>
-    <section>
-        
+
+    <div class="about">
+        <h1 class="abou_text">A Ritmo é uma plataforma de comunicação direta entre artistas interessados em se
+            consolidar enquanto produto
+            musical e as produtoras responsáveis por essa formação</h1>
+    </div>
+
+    <section class="consult">
+        <div class="consult1">
+            <p>Consultoria musical</p>
+            <h4>Como funciona?</h4>
+            -
+            <ul>
+                <li><strong>1</strong> Produção musical</li>
+                <li><strong>2</strong> Gravação</li>
+                <li><strong>3</strong> Escolha de single</li>
+                <li><strong>4</strong> Videoclipe</li>
+                <li><strong>5</strong> Video Release</li>
+                <li><strong>6</strong> Fotografia e Material Gráfico</li>
+                <li><strong>7</strong> Produção executiva de show</li>
+            </ul>
+        </div>
+        <div class="consult_img">
+            <img src="img/Image 10.png">
+        </div>
     </section>
+    <section class="portfolio">
+       
+            <p>Portfólio</p>
+            <h3>Artistas em destaque</h3>
+        -
+        <div class="portfolio_img">
+            <img src="img/Image 10.png">
+            <img src="img/Image 10.png">
+            <img src="img/Image 10.png">
+            <img src="img/Image 10.png">
+            <button>Conheça todos</button>
+        </div>
+    </section>
+    <section class="fale_conosco">
+        <div class="fale_conosco_text">
+            <p><strong>Fale Conosco</strong></p>
+            -
+            <p>Caso tenha alguma dúvida ou sugestão, nos envie uma mensagem utilizando o formulário de contato</p>
+        </div>
+        <form>
+            <div class="input-group">
+                <label>Nome</label>
+                <input name="name" type="text" />
+            </div>
+            <div class="input-group">
+                <label>Email</label>
+                <input name="email" type="email" />
+            </div>
+            <div class="input-group">
+                <label>Assunto</label>
+                <input name="subject" type="text" />
+            </div>
+            <div class="input-group">
+                <textarea name="textarea">Escreva sua mensagem aqui.</textarea>
+            </div>
+    </section>
+    <footer>
+        <p>Ritmo</p>
+        <p>Grupo1|Euterpe,Beatriz,Cristiana,Raphael e Renata</p>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
-</html>>
+
+</html>

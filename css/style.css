@@ -1,30 +1,231 @@
+
+@media (min-width: 780px){
+#navbar{
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
-position: fixed;
 top: 0;
-width: 100%;
-background-color: rgba(0,0,0,.2);
 font-size: 13px;
 padding: 20px;
+
+
+}
+header{
+background-image: url(../img/Image\ 11@2x.png);
+height: 684px;
+width: 100%;
+background-size: cover;
+margin-top: -136px;
+margin-left: -8px;
+
+}
+.img_mulheres{
+    background-image: url(../img/Image\ 20@2x.png);
+}
+.img_mulheres4{
+background-image: url(../img/Image\ 8@2x.png);
+height: 684px;
+width: 100%;
+background-size: cover;
+}
+.img_mulheres4 h2{
+font-size: 14px;
+margin-top: 361px;
 }
 
-.topbar img {
-width: 90px;
+.img_mulheres2{
+background-image: url(../img/Image\ 21@2x.png);
+height: 684px;
+width: 100%;
+background-size: cover;
+}
+.img_mulheres2 h2{
+color: white;
+position: absolute;
+margin-top: 247px;
+}
+.img_mulheres3{
+background-image: url(../img/Image\ 91@2x.png);
+height: 684px;
+width: 100%;
+background-size: cover;
 }
 
-.topbar ul li {
-display: inline;
+header h2 {
+color: white;
+font-size: 25px;
+font-family: 'Montserrat', 'Roboto+Slab', 'Roboto';
+position: absolute;
+margin-top: 234px;
+margin-left: 21px;
+    
+}
+#navbar ul{
+display: flex;
+
+}
+
+#navbar ul li {
 list-style: none;
 padding: 8px 14px;
+
+}
+#navbar p{
+    font-size: 23px;
+    color: white;  
 }
 
-.topbar ul a {
-text-decoration: none;
-color: #e3e7e7;
-opacity: 0.8;
+.lista{
+    display: none;
+}
+.brand a{
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.topbar ul a:hover {
-opacity: 1;
+#navbar ul a {
+    text-decoration: none;
+    font-family: Helvetica Neue, Bold;
+    color: white;  
+}
+.about{
+    background-color: black;
+    width: 97%;
+    height: 131px;
+    margin-top: 0px;
+    position: absolute;
+}
+.about h1{
+    color: white;
+    text-align: center;
+    font-family: Helvetica, Neue, thin;
+    font-size: 24px;
+
+}
+.lista{
+    display: none;
+}
+.btn{
+    display: none;
+}
+.consult{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 158px;
+}
+.consult ul {
+    list-style: none;
+}
+.consult_img img{
+    height: 335px
+}
+.portfolio_img img{
+    width: 100px;
+}
+.fale_conosco{
+    background-color: #E7E7E7;
+    width: 100%;
+    height: 179px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 114px;
+}
+form{
+    margin-top: 18px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+footer p{
+    color: white;
+    margin-top: 36px;
+}
+.portfolio{
+    background-color: #EA84B3;
+    padding: 9px;
+    margin-top: 26px;
+    z-index: 1;
+    height: 270px;
+    position: relative;
+    transform: skewY(-10deg);
+}
+.portfolio p{
+    color:#454545
+}
+.portfolio_img{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    height: 36px;
+    margin-top: 31px;
+}
+.vocacao{
+    margin-top: 145px;
+    display: flex;
+    justify-content: space-around;
+}
+.vocacao img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+}
+.vocacao_img{
+    display: flex;
+    
+}
+
+
+@media (max-width: 480px) {
+    #navbar{
+        position: fixed;
+        height: 100px;
+        background-color: black;
+        width: 100%;
+       
+    
+    }
+    .brand img{
+        display: flex;
+        justify-content: flex-start;
+        width: 92px;
+        margin-top: -77px;
+        margin-left: 10px;
+    }
+    .lista {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+     
+    }
+    
+    .lista ul li a{
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 66px;
+        margin-right: 10px;
+        color: red;
+    }
+
+    .lista2{
+        display: none;
+    }
+    .btn{
+        background: white;
+        border-radius: 50%;
+        width: 57px;
+        height: 53px;
+        position: fixed;
+        right: 11px;
+       
+    }
 }
